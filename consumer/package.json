@@ -1,0 +1,16 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumer_dlq.js",
+  "scripts": {
+    "start": "node consumer_dlq.js",
+    "dev": "node --watch --watch-path=. consumer_dlq.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.9"
+  }
+}
